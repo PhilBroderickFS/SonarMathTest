@@ -17,9 +17,9 @@ namespace SonarMathTest
             return a / b;
         }
 
-        // public decimal multiply (int a, int b) {
-        //     return a * b;
-        // }
+        public static decimal Multiply (int a, int b) {
+            return a * b;
+        }
 
     }
 }
