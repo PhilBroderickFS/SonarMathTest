@@ -16,12 +16,24 @@ namespace SonarMathTest
             return (decimal)a / b;
         }
 
-        public static decimal Multiply(int a, int b) => a * b;
+        public static decimal Multiply(int a, int b)
+        {
+            return a * b;
+        }
 
-        public static decimal Remainder(int a, int b) => a % b;
+        public static decimal Remainder(int a, int b)
+        {
+            return a % b;
+        }
 
-        public static decimal Square(int a) => a * a;
+        public static decimal Square(int a)
+        {
+            return a * a;
+        }
 
-        public static decimal Cube(int a) => a * a * a;
+        public static decimal Cube(int a)
+        {
+            return a * a * a;
+        }
     }
 }
