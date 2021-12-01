@@ -17,7 +17,7 @@ jobs:
         run: dotnet tool install --global dotnet-sonarscanner
 
       - name: dotnet test
-        run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+        run: dotnet test --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 
       - name: Begin sonarscanner
         run: dotnet sonarscanner begin /k:"PhilBroderickFS_SonarMathTest" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /o:"philbroderickfs" /d:sonar.cs.opencover.reportsPath=**/coverage.opencover.xml /d:sonar.cs.vstest.reportsPath=**/*.trx /d:sonar.host.url="https://sonarcloud.io" /d:"sonar.verbose=true"
