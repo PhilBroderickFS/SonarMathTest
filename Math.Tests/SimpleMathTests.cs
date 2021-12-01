@@ -1,5 +1,5 @@
 using System;
-using SonarMathTest;
+using SonarMath;
 using Xunit;
 
 namespace Math.Tests

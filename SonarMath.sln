@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarMathTest", "SonarMathTest\SonarMathTest.csproj", "{643EBDD9-FB3A-416E-8AC4-8337FF07AAEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonarMath", "SonarMath\SonarMath.csproj", "{643EBDD9-FB3A-416E-8AC4-8337FF07AAEA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math.Tests", "Math.Tests\Math.Tests.csproj", "{3370DFD6-EC2D-4300-8306-ABC7A4A19564}"
 EndProject

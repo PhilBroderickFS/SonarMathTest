@@ -25,7 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\SonarMathTest\SonarMathTest.csproj" />
+      <ProjectReference Include="..\SonarMath\SonarMath.csproj" />
     </ItemGroup>
 
 </Project>

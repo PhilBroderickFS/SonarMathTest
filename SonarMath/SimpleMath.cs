@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SonarMathTest
+namespace SonarMath
 {
     public static class SimpleMath
     {
