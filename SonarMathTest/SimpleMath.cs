@@ -5,7 +5,6 @@ namespace SonarMathTest
     public static class SimpleMath
     {
         public static int Add(int a, int b) => a + b;
-
         public static int Subtract(int a, int b) => a - b;
         public static decimal Divide (int a, int b) 
         {
@@ -14,12 +13,15 @@ namespace SonarMathTest
                 throw new DivideByZeroException();
             }
 
-            return a / b;
+            return (decimal)a / b;
         }
 
-        public static decimal Multiply (int a, int b) {
-            return a * b;
-        }
+        public static decimal Multiply(int a, int b) => a * b;
 
+        public static decimal Remainder(int a, int b) => a % b;
+
+        public static decimal Square(int a) => a * a;
+
+        public static decimal Cube(int a) => a * a * a;
     }
 }
