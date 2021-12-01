@@ -12,8 +12,10 @@ namespace SonarMathTest
             {
                 throw new DivideByZeroException();
             }
-
-            return (decimal)a / b;
+            else
+            {
+                return (decimal)a / b;
+            }
         }
 
         public static decimal Multiply(int a, int b)
